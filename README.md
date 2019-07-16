@@ -1,6 +1,5 @@
 算法设计Project：宏基因组组装 实验报告
 ===
-> 15307130140 万俊鹏
 
 一、实验方法
 ---
@@ -40,6 +39,7 @@
  + 每有一个碱基出错，这k-1个连续的碱基会偏离在原来DBG图中出现的路径，形成一小段序列，并最终合并到原序列中。
  
 <img src="bubble.png" width="500">  
+
 ##### B: tip
 ###### 产生原因：
  + 测序结果的每个碱基会在k-1个连续k-mer中出现，k为k-mer大小
@@ -220,7 +220,7 @@ Journal of Software, Vol.17, No.2, February 2006, pp.193−199)
 9. [单分子测序reads（PB）的混合纠错和denovo组装](http://www.cnblogs.com/leezx/p/6067845.html)
 10. [每日一生信--序列组装的算法k-mer ](http://blog.sina.com.cn/s/blog_670445240101kaba.html)
 11. [基因组组装算法](http://www.docin.com/p-960561793.html)
-12. 感谢尚红泽同学，提供了：
+12. 感谢hzshang，提供了：
      + 处理bubbles与tips时合并节点的实现思路
      + De brujin图C语言实现，定义节点的方法
 
